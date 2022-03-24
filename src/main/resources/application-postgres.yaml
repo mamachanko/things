@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://[::1]:5432/
+    password: verys3cret
+    username: postgres
+  jpa:
+    properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: create-drop
