@@ -1,0 +1,16 @@
+# https://buildpacks.io/docs/reference/config/project-descriptor/
+
+[project]
+id = "sso.apps.tanzu.vmware.com"
+name = "Operator"
+
+[build]
+exclude = [
+    ".gitignore",
+    "README.md",
+    "PROJECT",
+    "config",
+    "hack",
+    "e2e",
+    "tools.go",
+]
